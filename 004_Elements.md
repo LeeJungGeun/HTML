@@ -11,7 +11,7 @@ HTML요소는 시작태그부터 종료태그 까지의 모든것이다.
 
 HTML요소는 중첩될 수 있다
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
