@@ -8,7 +8,7 @@ HTML문서는 \<html>로 시작해서 \</html>로 끝난다
 눈에 보이는 내용은 \<body>와 \</body>사이에 있다
 
 ex)
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -32,7 +32,7 @@ HTML에서 제목은 \<h1>부터 \<h6>태그로 정의된다
 
 HTML에서 단락은 \<p>태그로 정의된다
 
-```
+```html
 <p>This is a paragraph.</p>
 ```
 
@@ -41,7 +41,7 @@ HTML에서 단락은 \<p>태그로 정의된다
 
 HTML에서 링크는 \<a>태그로 정의된다
 
-```
+```html
 <a href="https://www.google.com">This is a link</a>
 ```
 
@@ -54,7 +54,7 @@ HTML에서 이미지는 \<img>태그로 정의된다
 
 소스파일(src), 대체텍스트(alt), 너비(width)와 높이(height) 속성으로 사용된다
 
-```
+```html
 <img src="google.jpg" alt="google.com" width="200" height="200">
 ```
 
@@ -63,7 +63,7 @@ HTML에서 이미지는 \<img>태그로 정의된다
 
 HTML에서 버튼은 \<button>태그로 정의된다
 
-```
+```html
 <button>Click</button>
 ```
 
