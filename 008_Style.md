@@ -20,9 +20,9 @@ HTML의 요소 style속성으로 수행 할 수 있다.
 --------------
 background-color가 배경의 색이였다.  color는 글자의 색이다
 
-```
-<p style="color=red;">
-```
+
+<p style="color=red;">빨간글자</p>
+
 
 아래는 background-color와 color에서 사용할 수 있는 HTML기본 제공 색상 17가지다
 
@@ -44,18 +44,18 @@ background-color가 배경의 색이였다.  color는 글자의 색이다
 ---------------
 문자의 글꼴을 정의하는 속성
 
-```
+
 <p style="font-family:courier;">글꼴이 바뀐 단락.</p>
-```
+
 
 # font-size
 ----------------
 
 문자의 크기를 정의하는 속성
 
-```
+
 <p style="font-size:160%;">단락 160%</p>
-```
+
 
 # text-align
 --------------
@@ -63,9 +63,9 @@ background-color가 배경의 색이였다.  color는 글자의 색이다
 
 left, center, right 가 있다.
 
-```
-<p style="text-align:center;">가운데 정렬된 단락</p>
-```
+
+<p style="text-align:center">가운데 정렬된 단락</p>
+
 
 # 요약
 --------------
