@@ -17,7 +17,7 @@
 
 HTML링크는 <a>태그로 정의되며 링크 주소는 href속성에 지정되어있다
 
-```
+```html
 <a href="https://www.google.com">Link</a>
 ```
 
@@ -28,7 +28,7 @@ HTML의 이미지는 \<img>태그로 정의된다
 
 이미지 소스의 파일 이름은 src속성에 지정되어있다
 
-```
+```html
 <img src="img.jpg">
 ```
 
@@ -37,7 +37,7 @@ HTML의 이미지는 \<img>태그로 정의된다
 
 HTML이미지의 너비(width)와 높이(height)를 지정하는 속성
 
-```
+```html
 <img src="img.jpg" width="500" height="600">
 ```
 
@@ -48,7 +48,7 @@ HTML이미지의 너비(width)와 높이(height)를 지정하는 속성
 
 이미지를 표시할 수 없는경우 사용할 대체 텍스트를 지정한다
 
-```
+```html
 <img src="img.jpg" alt="대체텍스트">
 ```
 
@@ -57,7 +57,7 @@ HTML이미지의 너비(width)와 높이(height)를 지정하는 속성
 
 색상, 글꼴, 크기 등과 같은 요소를 지정하는데 사용됨
 
-```
+```html
 <p style="color:red">This is a red paragraph.</p>
 ```
 
@@ -68,7 +68,7 @@ HTML이미지의 너비(width)와 높이(height)를 지정하는 속성
 
 접근성 응용 프로그램 및 검색 엔진에서 매수 중요하다
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en-US">
 <body>
@@ -82,7 +82,7 @@ HTML이미지의 너비(width)와 높이(height)를 지정하는 속성
 
 title 속성을 \<p>에 추가한다 단락 위에[ 마우스를 올려놓으면 타이틀이 표시된다
 
-```
+```html
 <p title="title">
 TiTle
 </p>
