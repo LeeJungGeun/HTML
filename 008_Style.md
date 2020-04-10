@@ -3,7 +3,7 @@
 
 HTML의 요소 style속성으로 수행 할 수 있다.
 
-```
+```html
 <tagname style="특성:값;">
 ```
 
@@ -12,7 +12,7 @@ HTML의 요소 style속성으로 수행 할 수 있다.
 
 배경의 색을 정의하는 속성
 
-```
+```html
 <body style="background-color:blue;">
 ```
 
@@ -20,7 +20,7 @@ HTML의 요소 style속성으로 수행 할 수 있다.
 --------------
 background-color가 배경의 색이였다.  color는 글자의 색이다
 
-```
+```html
 <p style="color=red;">빨간글자</p>
 ```
 
@@ -44,7 +44,7 @@ background-color가 배경의 색이였다.  color는 글자의 색이다
 ---------------
 문자의 글꼴을 정의하는 속성
 
-```
+```html
 <p style="font-family:courier;">글꼴이 바뀐 단락.</p>
 
 ```
@@ -53,7 +53,7 @@ background-color가 배경의 색이였다.  color는 글자의 색이다
 
 문자의 크기를 정의하는 속성
 
-```
+```html
 <p style="font-size:160%;"> 단락 160% </p>
 
 ```
@@ -63,7 +63,7 @@ background-color가 배경의 색이였다.  color는 글자의 색이다
 
 left, center, right 가 있다.
 
-```
+```html
 <p style="text-align:center">가운데 정렬된 단락</p>
 
 ```
