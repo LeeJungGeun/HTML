@@ -26,4 +26,33 @@
 
 title과 함께 쓰이는 경우가 많다.
 
-<abbr title="Hyper Text Markup Language">HTML</abbr> 이다.
+```
+<p><abbr title="Hyper Text Markup Language"> HTML </abbr> 이다.</p>
+```
+
+# \<address>
+-----------------
+address는 소유자 또는 작성자의 연락처를 나타내는 태그
+
+기본 모양은 기울임꼴
+
+body 태그 안에 있으면 문서의 소유자 또는 작성자의 연락처를 나타냄
+
+article 태그 안에 있으면 기사의 소유자 또는 작성자의 연락처를 나타냄
+
+```
+<address> Tel 010-****-****
+  
+ e-mail ooo***@ooooo.ooo </address> 
+ ```
+
+# cite
+---------
+
+작품의 제목을 정의함
+
+보통은 이탤릭체로 표시됨
+
+```
+<cite>Cite</cite> 이다.
+```
