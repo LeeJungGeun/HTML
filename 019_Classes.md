@@ -57,3 +57,15 @@ city클래스와 main클래스에 모두 속한다
 <p class="city">Paris is the capital of France</p>
 ```
 h2와 p로 태그가 다르지만 클래스는 공유가 가능하다
+
+
+## Inline
+---------------
+
+class 태그는 인라인에서 사용 가능하다
+
+```
+<h1>My <span class="note">Important</span> Heading</h1>
+```
+
+h1 태그 안에서 일부분만 note클래스를 적용시킬 수 있다.
