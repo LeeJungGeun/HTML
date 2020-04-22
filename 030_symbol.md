@@ -5,7 +5,7 @@
 
 엔티티 이름이 없다면 10진수나 16진수를 참조할 수 있음
 
-```
+```html
 <p>I will display &euro;</p>
 <p>I will display &#8364;</p>
 ```
