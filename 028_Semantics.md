@@ -20,7 +20,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
 
 홈 페이지는 소개나 컨텐츠 등 여러 섹션으로 분할된다
 
-```
+```html
 <section>
   <h1>WWF</h1>
   <p>The World Wide Fund for Nature (WWF) is....</p>
@@ -45,7 +45,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
 
 한 문서에 여러개의 헤더가 사용될 수 있다.
 
-```
+```html
 <header>
     <h1>What Does WWF Do?</h1>
     <p>WWF's mission:</p>
@@ -60,7 +60,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
 
 \<footer>는 한 문서에 여러개 사용 가능하다.
 
-```
+```html
 <footer>
   <p>Posted by: Hege Refsnes</p>
   <p>Contact information: <a href="mailto:someone@example.com">
@@ -72,7 +72,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
 -------------
 주요 탐색 링크 블록에 사용되는 요소
 
-```
+```html
 <nav>
   <a href="/html/">HTML</a> |
   <a href="/css/">CSS</a> |
@@ -86,7 +86,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
  
  해당 콘텐츠들로부터 분리시킬 수 있는 콘텐츠로 구성된 페이지 영역
  
- ```
+ ```html
  <aside>
   <h4>Epcot Center</h4>
   <p>The Epcot Center is a theme park in Disney World, Florida.</p>
@@ -100,7 +100,7 @@ nav, header, footer등 웹페이지의 일정 부분을 정의하는 시멘틱 �
  
   \<figcaption> 요소는 \<figure> 요소의 캡션(caption)을 정의할 때 사용합니다.
   
-  ```
+  ```html
   <figure>
   <img src="pic_trulli.jpg" alt="Trulli">
   <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
