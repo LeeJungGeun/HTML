@@ -4,7 +4,7 @@
 
 \<iframe> 태그로 정의됨
 
-```
+```html
 <iframe src="URL"></iframe>
 ```
 
@@ -14,12 +14,12 @@ height와 width속성으로 각각 높이와 넓이 설정 기본적으로 픽�
 ---------------
 기본적으로는 테두리가 있으나 border속성을 추가해서 없애거나 변경하는것이 가능
 
-```
+```html
 <iframe src="demo_iframe.htm" style="border:none;"></iframe>
 ```
 border:none 은 테두리를 없앤다
 
-```
+```html
 <iframe src="demo_iframe.htm" style="border:2px solid red;"></iframe>
 ```
 테두리를 빨간 2픽셀로 변경
@@ -30,7 +30,7 @@ border:none 은 테두리를 없앤다
 
 target속성을 사용하며 name으로 iframe을 명명해야함
 
-```
+```html
 <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
 
 <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
