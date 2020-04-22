@@ -3,19 +3,19 @@
 
 문서의 유형을 첫번째줄로 선언할것
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 요소 이름은 소문자로 사용할것
-```
+```html
 <Section>
   <p>This is a paragraph.</p>
 </SECTION>
 ```
 섞어서 사용하는것이 제일 안좋다
 
-```
+```html
 <section>
   <p>This is a paragraph.</p>
 </section>
@@ -27,7 +27,7 @@ HTML은 요소를 닫지 않아도 어느정도 묵인해주는편이지만 그�
 
 속성도 마찬가지로 소문자를 사용할것
 
-```
+```html
 <div class="menu">
 ```
 
@@ -45,7 +45,7 @@ HTML은 요소를 닫지 않아도 어느정도 묵인해주는편이지만 그�
 
 \<html>과 \<body>는 생략해도 돌아는간다
 
-```
+```html
 <!DOCTYPE html>
 <head>
   <title>Page Title</title>
@@ -58,7 +58,7 @@ HTML은 요소를 닫지 않아도 어느정도 묵인해주는편이지만 그�
 생랴하면 구형브라우저에선 오류가 발생할 수 있으니 생략하지 않는것이 좋다
 
 빈요소는 HTML에선 닫을 필요가 없으나 XML에선 닫아야한다
-```
+```html
 <meta charset="utf-8" />
 ```
 
@@ -66,7 +66,7 @@ HTML은 요소를 닫지 않아도 어느정도 묵인해주는편이지만 그�
 
 모든 웹페이지에 아래의 \<mata>뷰포트 요소를 포함해야한다
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -78,7 +78,7 @@ initial-scale=1.0 페이지가 처음 로드될때 줌 레벨
 
 css파일에 링크할땐 간단한 구문을 사용
 
-```
+```html
 <link rel="stylesheet" href="styles.css">
 ```
 
