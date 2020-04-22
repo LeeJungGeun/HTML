@@ -16,14 +16,14 @@ HTML의 요소를 선택하기위해 대부분 \"document.getElementById()" 함�
 
   * document.getElementById() : 해당 id의 요소에 접근하는 함수
   
-```
+```html
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script>
 ```
 
 자바스크립트와 document.getElementById() 함수를 사용하면 id의 내용, 스타일, 속성을 변경할 수 있다
-```
+```html
 <p id="demo">JavaScript can change the style of an HTML element.</p>
 
 <script>
@@ -43,7 +43,7 @@ function myFunction() {
 
 자바스크립트를 비활성화하거나 지원하지 않는 브라우저의 경우 나오는 대체컨텐츠
 
-```
+```html
 <script>
 document.getElementById("demo").innerHTML = "Hello JavaScript!";
 </script>
