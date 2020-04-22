@@ -5,7 +5,7 @@
 
 \<type>을 이용해 여러가지 속성으로 나타낼 수 있다
 
-```
+```html
 <input type="text" id="firstname" name="firstname">
 ```
 다음장에서 자세히 다룬다
@@ -16,7 +16,7 @@
 
 디폴트값으로는 드롭다운 리스트의 첫번재값이 선택됨
 
-```
+```html
 <select id="cars" name="cars">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>
@@ -27,13 +27,13 @@
 
 한번에 표시할 수 있는 리스트의 크기는 size 속성으로 조정한다
 
-```
+```html
 <select name="cars" size="3">
 ```
 
 multiple 속성을 넣으면 둘 이상의 값을 선택할 수 있다
 
-```
+```html
 <select name="cars" size="4" multiple>
 ```
 
@@ -46,7 +46,7 @@ rows속성으로 줄수를 지정 cols속성으로 너비를 지정한다
 
 CSS로 크기를 정의하는 것도 가능하다
 
-```
+```html
 <textarea name="message" style="width:200px; height:600px;">
 The cat was playing in the garden.
 </textarea>
@@ -60,7 +60,7 @@ The cat was playing in the garden.
 --------------
 클릭할 수 있는 버튼을 정의한다
 
-```
+```html
 <button type="button" onclick="alert('Hello World!')">Click Me!</button>
 ```
 
@@ -72,7 +72,7 @@ The cat was playing in the garden.
 
 \<legend>태그를 사용하면 \<filedset>의 머릿말을 정의할 수 있다.
 
-```
+```html
 <form action="/action_page.php">
   <fieldset>
     <legend>Personalia:</legend>
@@ -94,7 +94,7 @@ The cat was playing in the garden.
 
 흔히말하는 자동완성 기능이다.
 
-```
+```html
 <form action="/action_page.php">
   <input list="browsers">
   <datalist id="browsers">
