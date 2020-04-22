@@ -2,7 +2,7 @@
 ------------------
 사용자의 입력을 모으는데 사용하는 양식을 정의한다
 
-```
+```html
 <form>
 .
 form elements
@@ -21,7 +21,7 @@ HTML Form은 \<form>요소를 포함한다
 
 text, radio, submit 등
 
-```
+```html
 <form>
 <input type="text" id="lname" name="lname">
 </form>
@@ -44,7 +44,7 @@ for를 사용하면 체크박스가 아닌 텍스트를 클릭해도 체크가�
 
 라디오버튼은 목록에서 1개만 선택 가능하다
 
-```
+```html
 <form>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
@@ -67,7 +67,7 @@ type을 부여하지 않은 \<button>과 다른점은 없다
 -----------------
 폼 데이터를 전송할 URL을 정의한다.
 
-```
+```html
 <form action="/action_page.php">
 ```
 
@@ -79,7 +79,7 @@ type을 부여하지 않은 \<button>과 다른점은 없다
 
 새 창을 원한다면 _blank를사용한다
 
-```
+```html
 <form action="/action_page.php" target="_blank">
 ```
 
