@@ -9,7 +9,7 @@
 ---------------
 인터넷 파일 전체의 URL
 
-```
+```html
 <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
 ```
 
@@ -25,7 +25,7 @@
 경로가 역슬래시(\)로 시작할 경우 루트디렉터리가 기준이다.
 
 한 단계 위에 있는 폴더의 경우 ../으로 표시한다
-```
+```html
 <img src="picture.jpg" alt="Mountain">
 
 <img src="images/picture.jpg" alt="Mountain">
