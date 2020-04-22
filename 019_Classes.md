@@ -7,7 +7,7 @@ Class 속성은 클래스 이름이 동일한 요소에 동일한 스타일을 �
 
 클래스를 정의할 때는 .className{ }형태가 된다
 
-```
+```html
 <head>
 <style>
 .cities {
@@ -45,7 +45,7 @@ class 속성은 모든 HTML요소에서 사용 할 수 있으며 클래스 이�
 
 HTML요소는 둘 이상의 클래스 이름을 가질 수 있고, 구분은 공백으로 한다
 
-```
+```html
 <h2 class="city main">London</h2>
 ```
 city클래스와 main클래스에 모두 속한다
@@ -64,7 +64,7 @@ h2와 p로 태그가 다르지만 클래스는 공유가 가능하다
 
 class 태그는 인라인에서 사용 가능하다
 
-```
+```html
 <h1>My <span class="note">Important</span> Heading</h1>
 ```
 
