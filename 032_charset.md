@@ -7,7 +7,7 @@ HTML4 아스키코드, ANSI등 여러 종류가 있다.
 
  HTML페이지에 사용된 문자 태그는 \<meta>에 저장되어있다
  
- ```
+ ```html
  <meta charset="UTF-8">
  ```
  
@@ -44,6 +44,6 @@ HTML4 아스키코드, ANSI등 여러 종류가 있다.
  
  CSS \@charset 규칙을 사용하여 스타일시트에 사용되는 인코딩 지정가능
  
- ```
+ ```html
  @charset "UTF-8";
  ```
