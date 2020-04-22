@@ -101,7 +101,7 @@ submit에서 작동한다
 
 이 속성이 존재할 때 모든 폼 데이터는 유효성을 검사하지 않는다.
 
-```
+```html
 <form action="/action_page.php" novalidate>
   <label for="email">Enter your email:</label>
   <input type="email" id="email" name="email"><br><br>
