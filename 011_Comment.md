@@ -9,7 +9,7 @@
 
 주석은 브라우저엔 표시되지 않지만 코드를 문서화하는데 도움이 된다.
 
-```
+```html
 <!-- This is a comment -->
 
 <p>This is a paragraph.</p>
