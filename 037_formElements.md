@@ -105,8 +105,8 @@ The cat was playing in the garden.
     <option value="Safari">
   </datalist>
 </form>
+```
 
 # output
 -------------
 스크립트나 사용자의 액션에 대한 결과를 나타낸다
-```
