@@ -11,7 +11,7 @@
 
 문서의 제목을 정의하는 태그
 
-```
+```html
 <head>
   <title>Page Title</title>
 </head>
@@ -22,7 +22,7 @@
 ----------------
 \<head>에서 스타일을 정의한 경우 단일 페이지에 정의됨
 
-```
+```html
 <head>
   <style>
     body {background-color: powderblue;}
@@ -36,7 +36,7 @@
 ------------
 외부 스타일시트에 연결하는데 사용
 
-```
+```html
 <link rel="stylesheet" href="style.css">
 ```
 
@@ -50,7 +50,7 @@
 
 메타데이터는 브라우저, 검색엔진 등에 사용됨
 
-```
+```html
 <meta charset="UTF-8">
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
@@ -65,7 +65,7 @@
 
 그래서 모든 웹페이지는 다음 \<meta>뷰포트 요소를 추가해야함
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -78,7 +78,7 @@
 
 \<script>는 자바스크립트를 정의하는데 사용됨
 
-```
+```html
 <script>
 function myFunction() {
   document.getElementById("demo").innerHTML = "Hello JavaScript!";
@@ -97,7 +97,7 @@ function myFunction() {
 ----------------
 html에선 \<html>태그, \<head>태그, \<body>태그를 생략 가능함
 
-```
+```html
 <!DOCTYPE html>
 <title>Page Title</title>
 
