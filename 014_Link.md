@@ -9,7 +9,7 @@
 ---------------
 \<a>태그를 사용한다
 
-```
+```html
 <a href="www.google.com">google</a>
 ```
 
@@ -21,7 +21,7 @@ target 속성은 링크된 문서를 열 위치를 지정
   * _parent 부모프레임에서 링크된 문서
   * _top 창 전체
   
-  ```
+  ```html
   <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
   ```
   
@@ -29,7 +29,7 @@ target 속성은 링크된 문서를 열 위치를 지정
 ---------------
 
 이미지를 링크로 사용 가능
-```
+```html
 <a href="default.asp">
   <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
 </a>
@@ -41,7 +41,7 @@ target 속성은 링크된 문서를 열 위치를 지정
 
 CSS를 사용하여 색상 변경 가능
 
-```
+```html
 a:link {
   color: green;
   background-color: transparent;
