@@ -8,7 +8,7 @@ HTML 및 CSS를 사용하여 웹사이트의 크기를 자동으로 조정하고
 
 \<meta>요소를 추가하면 된다
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -20,13 +20,13 @@ HTML 및 CSS를 사용하여 웹사이트의 크기를 자동으로 조정하고
 
 CSS의 width 속성을 100%로 설정하면 브라우저 크기에맞게 확대/축소된다
 
-```
+```html
 <img src="img_girl.jpg" style="width:100%;">
 ```
 
 max-width 를 사용하면 축소는 되지만 원래크기보다 크게 확대되지는 않는다.
 
-```
+```html
 <img src="img_girl.jpg" style="max-width:100%;height:auto;">
 ```
 
@@ -35,7 +35,7 @@ max-width 를 사용하면 축소는 되지만 원래크기보다 크게 확대�
 
 \<picture> 요소를 사용하면 브라우저 넓이에 따라 다른 이미지를 정의할 수 있다
 
-```
+```html
 <picture>
   <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
   <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
@@ -49,7 +49,7 @@ max-width 를 사용하면 축소는 되지만 원래크기보다 크게 확대�
 텍스트 크기는 vw로 설정 뷰포트 넓이를 의미한다
 
 브라우저 크기에따라 달라지는 텍스트 크기를 정의한다
-```
+```html
 <h1 style="font-size:10vw">Hello World</h1>
 ```
 
@@ -57,7 +57,7 @@ max-width 를 사용하면 축소는 되지만 원래크기보다 크게 확대�
 ------------
 브라우저별로 완전히 다른 스타일을 정의할 때 사용하는 방법
 
-```
+```html
 <style>
 .left, .right {
   float: left;
