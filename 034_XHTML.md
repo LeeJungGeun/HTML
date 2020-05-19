@@ -6,7 +6,7 @@ HTML보다 엄격하고
 
 XML로 정의된 HTML이며
 
-모든 므라우저에서 지원된다
+모든 브라우저에서 지원된다
 
 # Why
 --------------------
@@ -26,7 +26,7 @@ XML은문서를 올바르게 마크업해야함
     
     * \<html>의 xmlns속성이 필수
     
-    * \html> \<head>, \<title>,\<body> 속성 필수
+    * \<html> \<head>, \<title>,\<body> 속성 필수
  
  * XHTML
     
