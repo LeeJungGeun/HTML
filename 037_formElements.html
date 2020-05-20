@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        text-align:center;
+    }
+</style>
 <body>
-    
+    <form action="/action_page.php">
+        <fieldset>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+
+            <select id="abcy" name="abcy" size="2" multiple>
+                <option value="volvo">하나</option>
+                <option value="saab">둘</option>
+                <option value="fiat">셋</option>
+                <option value="audi">야</option>
+            </select>
+            <br>
+
+            <textarea name="message" rows="5" cols="30">글자
+            </textarea>
+            <br>
+
+            <button type="button" onclick="alert('Hello World!')">버튼 </button>
+        </fieldset>
+      </form>
 </body>
 </html>
