@@ -17,7 +17,7 @@ height와 width는 반드시 지정해야한다 style속성으로 테두리등�
 
 선그리기
 
-```html
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.moveTo(0, 0);
@@ -27,7 +27,7 @@ ctx.stroke();
 
 원그리기
 
-```html
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.beginPath();
@@ -37,7 +37,7 @@ ctx.stroke();
 
 텍스트 그리기
 
-```html
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
@@ -46,7 +46,7 @@ ctx.fillText("Hello World", 10, 50);
 
 이미지 그리기
 
-```html
+```js
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var img = document.getElementById("scream");
