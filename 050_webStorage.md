@@ -13,7 +13,7 @@
 
 웹 스트로지는 두가지 오브젝트를 제공한다
 
-window.localStorge - 유효기간이 없는 데이터저장
+window.localStorage - 유효기간이 없는 데이터저장
 
 window.sessionStorage - 한 세션에 대한 데이터를 저장하며 브라우저 탭을 닫으면 데이터가 손실됨
 
