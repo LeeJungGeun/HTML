@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        text-align:center;
+    }
+</style>
+<body>
+    <h2>초기값 부여</h2>
+    <input type="text" value="초기값"><br>
+    <h2>읽기 전용</h2>
+    <input type="text"value="읽기 전용" readonly><br>
+    <h2>비활성화</h2>
+    <input type="text" value="비활성화" disabled><br>
+    <h2>사이즈</h2>
+    <input type="text" size="50"><br>
+    <h2>최대 문자 정의</h2>
+    <input type="text" maxlength="4" size="4">
+    <h2>text외에 형식이 정해진곳에서의 최소 최대 정의</h2>
+    <input type="number" max="5" min="2"><br>
+    <h2>다중선택</h2>
+    <input type="file" multiple>
+    <h2>입력 패턴 정의 ver.비밀번호타입</h2>
+    <form>
+        <input type="password" pattern="[A-Za-z0-9]{}" maxlength="15">
+        <input type="submit" value="Submit">
+    </form>
+    <h2>입력예시</h2>
+    <input type="tel"
+    placeholder="010-1111-1111"
+    pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" maxlength="13">
+</body>
+</html>

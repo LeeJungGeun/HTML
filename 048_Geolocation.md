@@ -33,7 +33,7 @@ showPosition()은 위도와 경도를 표시한다
 
 getCurrentPostion()의 두번째 매개변수는 오류처리에 사용된다
 
-```html
+```js
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:

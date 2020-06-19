@@ -166,7 +166,7 @@ number, range등 숫자와 관련된 타입과 사용 가능
 
 필요없는 부분만 따로 적용하지 않는 것도 가능
 ```html
-form action="/action_page.php" autocomplete="on">
+<form action="/action_page.php" autocomplete="on">
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <input type="email" id="email" name="email" autocomplete="off"><br><br>
